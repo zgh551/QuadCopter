@@ -1,0 +1,1347 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\QuadCopter\QuadCopter\USER\QuadCopter.uvproj
+Project File Date:  07/09/2015
+
+<h2>Output:</h2>
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(304): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+compiling stabilizer.c...
+..\Modules\src\stabilizer.c(478): warning:  #550-D: variable "intRoll" was set but never used
+..\Modules\src\stabilizer.c:     int16_t intRoll, intPitch;
+..\Modules\src\stabilizer.c:             ^
+..\Modules\src\stabilizer.c(478): warning:  #550-D: variable "intPitch" was set but never used
+..\Modules\src\stabilizer.c:     int16_t intRoll, intPitch;
+..\Modules\src\stabilizer.c:                      ^
+..\Modules\src\stabilizer.c(85): warning:  #177-D: variable "mag" was declared but never referenced
+..\Modules\src\stabilizer.c:   static Axis3f mag;  // Magnetometer axis data in testla
+..\Modules\src\stabilizer.c:                 ^
+..\Modules\src\stabilizer.c(111): warning:  #550-D: variable "accMAG" was set but never used
+..\Modules\src\stabilizer.c:   static float accMAG    = 0.0;
+..\Modules\src\stabilizer.c:                ^
+..\Modules\src\stabilizer.c(164): warning:  #177-D: function "StationLinkTask" was declared but never referenced
+..\Modules\src\stabilizer.c:   static void StationLinkTask(void* param);
+..\Modules\src\stabilizer.c:               ^
+..\Modules\src\stabilizer.c: ..\Modules\src\stabilizer.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=33812 RO-data=1156 RW-data=1052 ZI-data=19196  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 7 Warning(s).
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33812 RO-data=1156 RW-data=1052 ZI-data=19196  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling stabilizer.c...
+..\Modules\src\stabilizer.c(478): warning:  #550-D: variable "intRoll" was set but never used
+..\Modules\src\stabilizer.c:     int16_t intRoll, intPitch;
+..\Modules\src\stabilizer.c:             ^
+..\Modules\src\stabilizer.c(478): warning:  #550-D: variable "intPitch" was set but never used
+..\Modules\src\stabilizer.c:     int16_t intRoll, intPitch;
+..\Modules\src\stabilizer.c:                      ^
+..\Modules\src\stabilizer.c(85): warning:  #177-D: variable "mag" was declared but never referenced
+..\Modules\src\stabilizer.c:   static Axis3f mag;  // Magnetometer axis data in testla
+..\Modules\src\stabilizer.c:                 ^
+..\Modules\src\stabilizer.c(111): warning:  #550-D: variable "accMAG" was set but never used
+..\Modules\src\stabilizer.c:   static float accMAG    = 0.0;
+..\Modules\src\stabilizer.c:                ^
+..\Modules\src\stabilizer.c(164): warning:  #177-D: function "StationLinkTask" was declared but never referenced
+..\Modules\src\stabilizer.c:   static void StationLinkTask(void* param);
+..\Modules\src\stabilizer.c:               ^
+..\Modules\src\stabilizer.c: ..\Modules\src\stabilizer.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=33812 RO-data=1156 RW-data=1052 ZI-data=19196  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 5 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(304): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33828 RO-data=1156 RW-data=1052 ZI-data=19196  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(304): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33820 RO-data=1156 RW-data=1052 ZI-data=19196  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(304): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+compiling nRF24L01.c...
+..\Hardware\src\nRF24L01.c(321): warning:  #9-D: nested comment is not allowed
+..\Hardware\src\nRF24L01.c:             /* Enable the EXTI interrupt router */
+..\Hardware\src\nRF24L01.c:             ^
+..\Hardware\src\nRF24L01.c: ..\Hardware\src\nRF24L01.c: 1 warning, 0 errors
+linking...
+Program Size: Code=33780 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 3 Warning(s).
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33780 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(305): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33792 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(306): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(307): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(307): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(308): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33792 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33816 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33816 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33804 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33816 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+compiling comm.c...
+linking...
+Program Size: Code=33808 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33812 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33808 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33808 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33808 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33808 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling nRF24L01.c...
+..\Hardware\src\nRF24L01.c(321): warning:  #9-D: nested comment is not allowed
+..\Hardware\src\nRF24L01.c:             /* Enable the EXTI interrupt router */
+..\Hardware\src\nRF24L01.c:             ^
+..\Hardware\src\nRF24L01.c: ..\Hardware\src\nRF24L01.c: 1 warning, 0 errors
+linking...
+Program Size: Code=33796 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 1 Warning(s).
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33796 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33796 RO-data=1156 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33784 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33776 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'QuadCopter'
+linking...
+Program Size: Code=33776 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QuadCopter'
+compiling radiolink.c...
+..\Application\src\radiolink.c(309): warning:  #177-D: function "interruptCallback" was declared but never referenced
+..\Application\src\radiolink.c:   static void interruptCallback(void)
+..\Application\src\radiolink.c:               ^
+..\Application\src\radiolink.c(49): warning:  #550-D: variable "state" was set but never used
+..\Application\src\radiolink.c:   }state;
+..\Application\src\radiolink.c:    ^
+..\Application\src\radiolink.c: ..\Application\src\radiolink.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=33768 RO-data=1160 RW-data=1048 ZI-data=19192  
+FromELF: creating hex file...
+".\output\text.axf" - 0 Error(s), 2 Warning(s).
+Load "F:\\QuadCopter\\QuadCopter\\USER\\output\\text.AXF" 
+Set JLink Project File to "F:\QuadCopter\QuadCopter\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
